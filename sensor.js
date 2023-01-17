@@ -45,7 +45,7 @@ class Sensor {
                 ctx.lineWidth = 2;
 
                 /*****color of rays*****/
-                ctx.strokeStyle = "Red";
+                ctx.strokeStyle = "yellow";
 
                 ctx.moveTo(
                     this.rays[i][0].x,
