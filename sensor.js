@@ -3,8 +3,8 @@ class Sensor {
     constructor(car){
      this.car = car;
      /****Sensor rays****/
-     this.rayCount  = 3;
-     this.rayLength = 100;
+     this.rayCount  = 30;
+     this.rayLength = 150;
      /////////////Pi by 4 = 45 degrees////////////////////
      this.raySpread = Math.PI/4;
 
